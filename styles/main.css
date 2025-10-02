@@ -45,7 +45,7 @@ p {
 }
 
 ul {
-	margin:16px 0px 0px;
+	margin:8px 0px 0px;
 	padding:0px 16px;
 }
 
@@ -199,6 +199,15 @@ li {
 	}
 }
 
+#title {
+	background:#DDDDDD;
+	margin:-16px -16px 8px;
+	padding:8px 16px;
+	font-size:24px;
+	font-weight:bold;
+	border-bottom:2px solid #000000;
+}
+
 #main {
 	border-left:2px solid #000000;
 	border-right:2px solid #000000;
@@ -315,7 +324,7 @@ li {
 
 .person .card {
 	display:flex;
-	height:100px;
+	height:104px;
 }
 
 @media (max-width:850px) {
@@ -328,11 +337,13 @@ li {
 }
 
 .person .card > img {
-	width:100px;
+	width:104px;
+	height:104px;
+	border:2px solid #000000;
 }
 
 .person .info {
-	height:100px;
+	height:104px;
 	margin-left:16px;
 	display:inline-flex;
 	flex-direction:column;

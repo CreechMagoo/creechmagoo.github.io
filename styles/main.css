@@ -36,7 +36,7 @@ h1:first-of-type {
 }
 
 h2 {
-	margin:0px;
+	margin:16px 0px 0px;
 }
 
 p {
@@ -55,6 +55,11 @@ li {
 	background:url("../images/dot.png") no-repeat;
 	background-position:0px 6px;
 	padding-left:24px;
+}
+
+.youtube {
+	width:100%;
+	aspect-ratio:16 / 9;
 }
 
 .links {
@@ -364,6 +369,10 @@ li {
 	width:fit-content;
 	border:2px solid #000000;
 	box-shadow:3px 3px #444444;
+}
+
+.person h2 {
+	margin:0px;
 }
 
 .person p {

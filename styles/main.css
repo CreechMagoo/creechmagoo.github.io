@@ -57,11 +57,6 @@ li {
 	padding-left:24px;
 }
 
-.youtube {
-	width:100%;
-	aspect-ratio:16 / 9;
-}
-
 .links {
 	display:inline-flex;
 	gap:15px;
@@ -232,6 +227,23 @@ li {
 #footer {
 	flex-direction:column;
 	gap:10px;
+}
+
+/* ==== */
+/* NEWS */
+/* ==== */
+
+.newsImage {
+	text-align:center;
+}
+
+.newsImage img {
+	max-width:100%;
+}
+
+.youtube {
+	width:100%;
+	aspect-ratio:16 / 9;
 }
 
 /* ============= */

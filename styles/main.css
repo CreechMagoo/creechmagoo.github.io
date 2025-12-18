@@ -45,7 +45,7 @@ p {
 }
 
 ul {
-	margin:8px 0px 0px;
+	margin:16px 0px 0px;
 	padding:0px 16px;
 }
 
@@ -53,7 +53,7 @@ li {
 	margin:8px 0px 0px;
 	list-style-type:none;
 	background:url("../images/dot.png") no-repeat;
-	background-position:0px 6px;
+	background-position:4px 6px;
 	padding-left:24px;
 }
 

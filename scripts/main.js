@@ -32,7 +32,7 @@ const socials = [
 
 document.addEventListener("DOMContentLoaded", (event) => {
 	const copyright = document.getElementById("copyright");
-	copyright.innerHTML = '© 2024-'+year+' SCUM DOG LTD</span>';
+	copyright.innerHTML = '© 2024-'+year+' SCUM DOG LLC</span>';
 
 	const links = document.createElement("div");
 	links.className = "links";

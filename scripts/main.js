@@ -4,8 +4,18 @@ const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
 const socials = [
 	{
+		name: "Newgrounds",
+		url: "https://scumdogllc.newgrounds.com/",
+		icon: "newgrounds",
+	},
+	{
+		name: "Itch.io",
+		url: "https://scumdogllc.itch.io/",
+		icon: "itch",
+	},
+	{
 		name: "Instagram",
-		url: "https://www.instagram.com/scumdoggames/",
+		url: "https://www.instagram.com/scumdogllc/",
 		icon: "instagram",
 	},
 	{
@@ -15,18 +25,8 @@ const socials = [
 	},
 	{
 		name: "Twitter",
-		url: "https://twitter.com/scumdoggames",
+		url: "https://twitter.com/scumdogllc",
 		icon: "twitter",
-	},
-	{
-		name: "Newgrounds",
-		url: "https://scumdoggames.newgrounds.com/",
-		icon: "newgrounds",
-	},
-	{
-		name: "Itch.io",
-		url: "https://scumdoggames.itch.io/",
-		icon: "itch",
 	},
 ];
 

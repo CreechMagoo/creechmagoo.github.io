@@ -45,8 +45,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 	copyright.parentNode.insertBefore(links, copyright);
 
-	// force game to be played in fullscreen on mobile
+	// Force game to be played in fullscreen on mobile
 	if (isMobile && document.body.contains(document.getElementById("gameContainer"))) {
-		document.getElementById("gameContainer").outerHTML = "<a href=\""+document.getElementById("game").src+"\">PLAY NOW</a>";
+		const game = document.getElementById("gameArea").getAttribute("data-game");
+		document.getElementById("gameContainer").outerHTML = `
+			<div id="gameContainer" class="mobile" style="background-image:url('../../images/games/${game}.png');"><a href="${document.getElementById("game").src}">PLAY NOW</a></div>
+		`;
 	}
 });
